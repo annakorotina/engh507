@@ -2098,7 +2098,8 @@ button,
     border-bottom: 0;
     color: inherit;
     font-family: "Roboto Slab", serif;
-    font-size: 1.125em; }
+    font-size: 1.125em; 
+	white-space: nowrap; }
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
@@ -2116,6 +2117,17 @@ button,
         position: absolute;
         right: -0.5em;
         top: 0; } }
+
+/* Photo gallery */
+
+
+.photos img {
+		margin: 0 auto;
+	width: 450px;
+	height: 350px;
+	background: hsla(14, 100%, 53%, 0.6);
+	margin: 25px;
+	border: 10px solid rgba(255, 255, 255, 0); }
 
 /* Banner */
 #banner {
